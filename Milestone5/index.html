@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="resume">
+        <h1>Shareable Resume</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="username">username</label>
+            <input type="text" id="username" placeholder="Enter your username" required>
+            <br />
+            <br />
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br />
+            <br />
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter your Email" required>
+            <br />
+            <br />
+
+            <label for="contact#">Contact #</label>
+            <input type="text" id="contact number" placeholder="Enter your contact number">
+    
+        </fieldset>
+        <fieldset>
+            <legend>Academic Information</legend>
+            <label for="education">Education</label>
+            <textarea name="Education" id="Education" placeholder="Enter your educational details" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <label for="work experience">Work Experience</label>
+            <textarea name="work experience" id="work experience" placeholder="Enter your work experience in case of fresher leave this area blank" rows="4"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Skills and Expertise</legend>
+            <label for="skills and expertise">Skills and Expertise</label>
+            <textarea name="skills and expertise" id="skills and expertise" placeholder="Enter your skills and area of expertise" rows="4"></textarea>
+        </fieldset>
+        <button type="submit">Generate Resume</button>
+    </form>
+    <br />
+    <br />
+    <div id="myresume" contenteditable="true">
+
+    </div>
+    <br />
+
+    <div id="shareable link">
+        <h2>Shareable link for Resume</h2>
+        <p>Click on the given link to view your resume in a separate browser</p>
+        <a href="#" id="mylink" target="_blank"></a>
+        <br />
+        <button id="download"><b>Download your Resume</b></button>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+* body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: darkgray;
+}
+form{
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 8px,8px 8px rgb(102, 18, 18);
+}
+h1{
+    text-align: center;
+    color: black;
+}
+fieldset{
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(129, 214, 138);
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+lable{
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+input,textarea{
+    margin: top 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+button{
+    display: block;
+    width: 100%;
+    background-color: darkcyan;
+    color: orangered;
+    border-radius: 4px solid blue;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px inset red;
+    cursor: pointer;
+    font-size: larger;
+}
+button:hover{
+    color: chocolate;
+    background-color: coral;
+}
+
+#myresume{
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 8px;
+    border-radius: 8px solid rgb(15, 121, 40);
+    background-color: aqua;
+    box-shadow: 0,8px,8px rgb(141, 48, 48);
+    outline: none;
+}
+#shareable link{
+    display: none;
+}
